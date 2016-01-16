@@ -22,6 +22,10 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("<Your game>")
 clock = pygame.time.Clock()     ## For syncing the FPS
 
+
+## group all the sprites together for ease of update
+all_sprites = pygame.sprite.group()
+
 ## Game loop
 running = True
 while running:
@@ -35,8 +39,8 @@ while running:
 
 
     #2 Update
-    
-
+    all_sprites.update()
+    all_sprites.draw(screen)
 
 
     #3 Draw/render
