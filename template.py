@@ -40,12 +40,14 @@ while running:
 
     #2 Update
     all_sprites.update()
-    all_sprites.draw(screen)
 
 
     #3 Draw/render
     screen.fill(BLACK)
 
+    
+
+    all_sprites.draw(screen)
     ########################
 
     ### Your code comes here

@@ -8,6 +8,10 @@ A sneak peek.
 
 The default height is `480px` and width is `360px`
 
+I created [Space Shooter](https://github.com/prodicus/spaceShooter) using this boilerplate. Here's a demo screen
+
+![Space Shooter](http://i.imgur.com/I5mTBFB.png)
+
 ## License
 
 MIT License © [tasdikrahman.me](http://tasdikrahman.me)
